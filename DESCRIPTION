@@ -1,0 +1,11 @@
+Package: scarsdale_2014_assessment
+Type: Package
+Date: 2014-05-04
+Title: Study of the 2014 change in Scarsdale's property assessment
+Description: XXX
+URL: http://thomaslevine.com
+Version: 0.1
+Maintainer: Thomas Levine <_@thomaslevine.com>
+Author: Thomas Levine <_@thomaslevine.com>
+License: AGPL
+Depends: sqldf, RMySQL, knitr
