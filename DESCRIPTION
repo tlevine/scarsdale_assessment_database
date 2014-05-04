@@ -1,7 +1,7 @@
-Package: scarsdale_2014_assessment
+Package: scarsdale_database
 Type: Package
 Date: 2014-05-04
-Title: Study of the 2014 change in Scarsdale's property assessment
+Title: Query the database about Scarsdale's new property assessment
 Description: XXX
 URL: http://thomaslevine.com
 Version: 0.1
