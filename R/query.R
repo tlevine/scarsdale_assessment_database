@@ -3,6 +3,6 @@ library(sqldf)
                         user = 'public',
                         password = 'public',
                         dbname = 'scarsdale',
-                        host = 'dadawarehouse.thomaslevine.com')
+                        host = 'tlevine.the-nsa.org')
 
 query <- function(sql) sqldf(sql, connection = .connection)
