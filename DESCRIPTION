@@ -1,4 +1,4 @@
-Package: scarsdale_database
+Package: scarsdale
 Type: Package
 Date: 2014-05-04
 Title: Query the database about Scarsdale's new property assessment
@@ -8,4 +8,4 @@ Version: 0.1
 Maintainer: Thomas Levine <_@thomaslevine.com>
 Author: Thomas Levine <_@thomaslevine.com>
 License: AGPL
-Depends: sqldf, RMySQL, knitr
+Depends: sqldf, RMySQL

@@ -1,8 +1,10 @@
 library(sqldf)
-.connection <- dbConnect(MySQL(),
-                        user = 'public',
-                        password = 'public',
-                        dbname = 'scarsdale',
-                        host = 'tlevine.the-nsa.org')
 
-query <- function(sql) sqldf(sql, connection = .connection)
+query <- function(sql) {
+  .connection <- dbConnect(MySQL(),
+                           user = 'public',
+                           password = 'public',
+                           dbname = 'scarsdale',
+                           host = 'tlevine.the-nsa.org')
+  sqldf(sql, connection = .connection)
+}
